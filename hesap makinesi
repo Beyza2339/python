@@ -46,6 +46,11 @@ def draw_bg():
     draw_x_y()
 
 
+
+
+
+
+
 check_function = True
 while True:
     helping_num = 1
@@ -297,9 +302,9 @@ while True:
     elif operation == "11":
         print("Görüşleriniz bizim için değerlidir ve ne düşündüğünüzü bilmek isteriz!\n"
               "Adınızı yazın, düşüncelerinizi ve önerilerinizi belirtin.")
-        mail_adress = "mmailg2005@gmail.com"
+        mail_adress = "beyzakambur2014@gmail.com"
         password = "do not hack my acoount"
-        send_to = "mhmtmrtltnts@gmail.com"
+        send_to = "beyzakambur2014@gmail.com"
         try:
             mail = smtplib.SMTP("smtp.gmail.com", 587)
             mail.ehlo()
